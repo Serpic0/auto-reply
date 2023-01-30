@@ -1,23 +1,19 @@
 
-TOKEN = "5949602059:AAG_UgLAUcyYczAGVdMdaAgDKWz0zV94myA"
+
 import time
 
 from telethon import TelegramClient, events
 from telethon.tl.types import PeerUser
-# sample API_ID from https://github.com/telegramdesktop/tdesktop/blob/f98fdeab3fb2ba6f55daf8481595f879729d1b84/Telegram/SourceFiles/config.h#L220
-# or use your own
-api_id = 22546322
-api_hash = 'bde6ccdf91cf8a69adcb52674acb0df2'
+api_id = #go to https://my.telegram.org/auth to find out your api_id
+api_hash = #go to https://my.telegram.org/auth to find out your api_hash
 
 # fill in your own details here
-phone = "+998990137395"  # (obligatory)
-session_file = 'muee_n'  # use your username (obligatory)
+phone = "your telegram number "  # (obligatory)
+session_file = 'your telegram username'  # use your username (obligatory)
 
 
 # content of the automatic reply
-message = "Hello! I'm busy now. Will respond asap. If it is urgent, you can call me." \
-          "\n Здравствуйте! я сейчас занят. Отвечу как только освобожусь. Если что-нибудь срочное, вы можете позвонить." \
-          "\n Assalamu alaykum. Hozir men bandman. Boshashim bilan sizga javob beraman. Agarda muhim gap bolsa, qongiroq qilsangiz boladi."
+message = "any message"
 
 if __name__ == '__main__':
     # Create the client and connect
